@@ -32,7 +32,7 @@ const BookOverview = ({ title, author, genre, rating, total_copies, available_co
                     <BookCover variant="wide" className="z-10" coverColor={color} coverImage={cover} />
 
                     <div className='absolute top-10 left-16 rotate-12 opacity-40 max-sm:hidden'>
-
+                        <BookCover variant="wide" className="z-10" coverColor={color} coverImage={cover} />
                     </div>
                 </div>
             </div>
